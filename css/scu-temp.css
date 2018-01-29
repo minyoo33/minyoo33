@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+html {
+    font-size: 17px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header, main, footer {
+    margin-left: 260px;
+}
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        margin-left: 0px;
+    }
+}
+
+#scu-nav-table {
+    margin: 0px;
+    padding: 0px;
+}
+#scu-nav-table td {
+    margin: 0px;
+    padding: 2px;
+}
+#scu-nav-table-td1{
+    width: 5%;
+}
+
+.scu-title {
+    font-size : 1.4em;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 300px;
+    font-weight: bolder;
+}
+@media only screen and (max-width : 992px) {
+    .scu-title {
+        font-size : 1.4em;
+        font-family: 'Nanum Gothic', sans-serif;
+        margin: 0px;
+        padding-top: 7px;
+        padding-left: 0px;
+        font-weight: bolder;
+    }
+}
